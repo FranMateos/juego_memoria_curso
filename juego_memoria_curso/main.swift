@@ -8,5 +8,23 @@
 
 import Foundation
 
-print("Hello, World!")
+// esto es un juego de memoria sencillo correspondiente al segundo módulo del curso iOS
+
+for i in 0...100 {
+    
+    if i % 5 == 0 {
+        print("#\(i) Bingo!!!")
+    }
+    if i % 2 == 0 {
+        print("#\(i) es par!!!")
+    }
+    if i % 2 != 0 {
+        print("#\(i) es impar!!!")
+    }
+    if i > 30 && i < 40 {
+        print("#\(i) Viva Swift!!!")
+    }
+    print()
+    
+}
 
